@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'haettenschweiler';
+    src: url('/fonts/mainfont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'poppins-regular';
+    src: url('/fonts/Poppins-Regular.TTF') format('ttf');
+}
+
+.section {
+    width: 100vw;
+    background-color: white;
+    padding: 20px 30px 110px 30px;
+    position: relative;
+}
+
+.offer_bg {
+    width: 80vw;
+    height: 450px;
+    background: url('../../../public/offer_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* justify-self: center; */
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-top: 60px;
+}
+
+.offer_bg span {
+    font-size: 50px;
+    color: white;
+    font-weight: 400;
+    max-width: 500px;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'haettenschweiler';
+    letter-spacing: 3px;
+}
+
+.offer_bg button {
+    color: #000000;
+    font-size: 15px;
+    width: 200px;
+    height: 45px;
+    border-radius: 4px;
+    background-color: #FFB800;
+    margin-top: 20px;
+    font-family: 'haettenschweiler';
+    letter-spacing: 1px;
+}
+
+.title {
+    font-size: 55px;
+    color: #333333;
+    font-weight: 400;
+    font-family: 'haettenschweiler';
+    /* letter-spacing: -1px; */
+    margin-bottom: -20px;
+    letter-spacing: 1px;
+}
+
+.offer_cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.offer {
+    width: 300px;
+    height: 370px;
+    border-radius: 10px;
+    background-color: #000000;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+    box-shadow: 0px 5px 5px #e7e7ed;
+}
+
+.offer:hover {
+    transform: scale(1.03)
+}
+
+.offer_img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.offer_nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+
+.offer_nav span {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'haettenschweiler';
+}
+
+.bg_img {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 300px;
+    height: 350px;
+}
+
+.stripe {
+    width: 597px;
+    height: 18px;
+}
+
+@media screen and (max-width:450px) {
+    .section {
+        width: 100vw;
+        background-color: white;
+        padding: 20px 30px 110px 30px;
+        position: relative;
+    }
+    
+    .offer_bg {
+        width: 80vw;
+        height: 450px;
+        background: url('../../../public/offer_bg.jpg');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* justify-self: center; */
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 15px;
+        margin-top: 60px;
+    }
+    
+    .offer_bg span {
+        font-size: 50px;
+        color: white;
+        font-weight: 400;
+        max-width: 500px;
+        text-align: center;
+        line-height: 50px;
+        font-family: 'haettenschweiler';
+        letter-spacing: 3px;
+    }
+    
+    .offer_bg button {
+        color: #000000;
+        font-size: 15px;
+        width: 200px;
+        height: 45px;
+        border-radius: 4px;
+        background-color: #FFB800;
+        margin-top: 20px;
+        font-family: 'haettenschweiler';
+        letter-spacing: 1px;
+    }
+    
+    .title {
+        font-size: 35px;
+        color: #333333;
+        font-weight: 400;
+        font-family: 'haettenschweiler';
+        /* letter-spacing: -1px; */
+        margin-bottom: -20px;
+        letter-spacing: 1px;
+    }
+    
+    .offer_cont {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 40px;
+        gap: 30px;
+    }
+    
+    .offer {
+        width: 300px;
+        height: 370px;
+        border-radius: 10px;
+        background-color: #000000;
+        cursor: pointer;
+        transition: transform 0.5s ease-in-out;
+        box-shadow: 0px 5px 5px #e7e7ed;
+    }
+    
+    .offer:hover {
+        transform: scale(1.03)
+    }
+    
+    .offer_img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .offer_nav {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 15px;
+    }
+    
+    .offer_nav span {
+        color: white;
+        font-size: 30px;
+        font-weight: 600;
+        font-family: 'haettenschweiler';
+    }
+    
+    .bg_img {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        width: 300px;
+        height: 350px;
+    }
+
+    .stripe {
+        width: 300px;
+        height: 10px;
+    }
+}
